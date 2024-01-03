@@ -1,4 +1,4 @@
-# Python-
+1)# Python-
 Python
 Task
 Given an integer, , perform the following conditional actions:
@@ -56,5 +56,24 @@ if __name__ == '__main__':
     b = int(input())
     print(a//b)
     print(a/b)
+
+4)Task
+The provided code stub reads and integer, i<n, from STDIN. For all non-negative integers i*i print.
+
+**Solution**
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+        print(i*i)
+5)The included code stub will read an integer, , from STDIN.
+Without using any string methods, try to print the following:
+example: n=3
+ouput: 123
+
+**Solution**
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(1, n+1):
+        print(i,end='')
 
 
