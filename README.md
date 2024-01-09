@@ -114,3 +114,12 @@ if __name__ == '__main__':
                  out_put.append([i, j, k])
     print(out_put)
 
+6)Question: Find the Runner-up Score [Python Basic Data Types]
+
+**Solution**
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    arr1=set(arr)
+    arr2=sorted(arr1)
+    print(arr2[-2])
